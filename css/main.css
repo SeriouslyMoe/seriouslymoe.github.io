@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+::-webkit-scrollbar-button, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-corner, ::-webkit-resizer{display: none;}
+
+.navbar {
+	background-color: transparent !important;
+	padding: 1% 0;
+	font-size: 1.2em;
+	min-height: 117px;
+}
+
+.navbar-brand {
+	padding: 0;
+	text-align: center;
+	vertical-align: middle !important;
+}
+
+.navbar-text{
+	font-family: "Vollkorn", serif;
+	line-height: 1.3em;
+	letter-spacing: 0.15em;
+	color: #FFF !important;
+}
+
+.nav-link {
+	font-size: 14px;
+	padding: 0px 50px !important;
+	color: rgba(255,255,255,.75) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #FFF !important;
+	transition: all 0.5s;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.hover {
+	color: #FFF;
+}
+
+.darkbox {
+	background-color: #000;
+	display: block;
+	height: 78%;
+	position: absolute;
+	width: 100%;
+	background-size: cover;
+	opacity:1;
+}
+
+.background {
+	background-image: url(../images/bg/testscale.jpg);
+	display: block;
+	height: 78%;
+	position: absolute;
+	width: 100%;
+	background-size: cover;
+	opacity:.5;
+}
+
+#home {
+	display: block;
+	height: 78%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	margin-top: 15%;
+	font-family: "Vollkorn", serif;
+	font-style: italic;
+	letter-spacing: 0.15em;
+	color: white;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-family: "Vollkorn", serif;
+	font-style: italic;
+	font-size: 400%;
+	font-weight: 500;
+	line-height: 1.1em;
+	letter-spacing: 0.05em;
+}
+
+.btn {
+	margin-top: 5%;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-style: normal;
+	font-size: 13px;
+	padding: 1rem 4rem;
+	border-radius: 0 !important;
+}
+
+.padding{
+	padding: 50px;
+}
+
+#albums {
+	margin: auto;
+	width: 100%;
+	max-width: 980px;
+}
+
+.jumbotron {
+	margin: auto;
+	width: 1175px;
+	border-radius: 0% !important;
+}
+
+.container {
+    max-width: 980px;
+}
+
+.footer {
+    width: auto;
+	height: 119px;
+    padding: 0 15px;
+	margin: auto;
+	position: relative;
+    bottom: 0;
+    line-height: 60px;
+    background-color: #000 !important;
+}
+
+.justify-content-center {
+	position: relative;
+	padding: 1.75rem;
+}
+
+.footer-text {
+	font-size: 14px;
+	color: #FFF !important;
+	vertical-align: middle;
+	padding-right: 350px;
+}
+
+.footer-link {
+	padding: 0px 10px;
+}
+
+.fab {
+	color: #FFFFFFb0;
+	vertical-align: middle;
+}
+
+.fab:hover {
+	color: #FFF;
+	transition: all 0.5s;
+}
+
